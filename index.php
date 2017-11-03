@@ -23,7 +23,7 @@ echo "<br>";
 		
 	}
 	
-	elseif ($t == 6 xor $r>6 and $>6 xor $r ==6){
+	elseif ($t == 6 xor $r>6 and $t>6 xor $r ==6){
 		echo "Nearly a Winner";
 	}
 	
