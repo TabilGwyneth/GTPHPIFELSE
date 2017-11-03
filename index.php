@@ -11,11 +11,11 @@ echo "<br>";
 echo $r;
 echo "<br>";
 
-	if ($t == 1){
+	if ($t == 1 and $r ==1){
 		echo  "Almost snake eyes";
 		}
 	
-	elseif ($t == 6){ 
+	elseif ($t == 6 and $r == 6){ 
 		echo "Winner";
 		
 	}
