@@ -6,13 +6,11 @@
 
 $t = rand(1,6); 
   
-if ($t = "1"){  
-  echo  "Almost snake eyes";    
-              
-} elseif ($t = "6" ){   
+if ($t == "1"){  
+  echo  "Almost snake eyes";  
+} elseif ($t == "6" ){   
   echo "winner";  
-
-}else {
+} else {
     echo "you lost";
  
 }
