@@ -20,7 +20,7 @@ echo $t;
 		echo "you lose";
 	}
 	
-	endif;
+
 ?>
 
 </body>
