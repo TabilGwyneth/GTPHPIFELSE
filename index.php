@@ -16,8 +16,13 @@ echo "<br>";
 		}
 	elseif ($t == 1 xor $r<1){
 		echo "Snake eyes";
-	}	
-			elseif ($t == 6 and $r == 6){ 
+	}
+	
+	elseif($t<1 xor $r == 1){
+		echo "Snake eyes";
+	}
+	
+	elseif ($t == 6 and $r == 6){ 
 		echo "Winner";
 		
 	}
