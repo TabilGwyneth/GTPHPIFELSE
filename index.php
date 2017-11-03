@@ -5,6 +5,7 @@
 <?php
 
 $t = rand(1,6);
+$r = rand (1,6);
 echo $t;
 echo "<br>";	
 echo $r;
