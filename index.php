@@ -6,9 +6,10 @@
 
 $t = rand(1,6);
 $r = rand (1,6);
-echo $t.,.$r;
-echo "<br>";	
-
+echo $t;
+echo "<br>";
+echo $r;
+echo "<br>";
 
 	if ($t == 1 and $r ==1){
 		echo  "Almost snake eyes";
