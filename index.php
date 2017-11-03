@@ -18,19 +18,12 @@ echo "<br>";
 		echo "almost Snake eyes";
 	}
 	
-	
-	
 	elseif ($t == 6 and $r == 6){ 
 		echo "Winner";
 		
 	}
 	
-	elseif ($t == 6 xor $r>6){
-		echo "Nearly a Winner";
-	}
-	
-	elseif ($t>6 xor $r == 6){
-	
+	elseif ($t == 6 xor $r>6 and $>6 xor $r ==6){
 		echo "Nearly a Winner";
 	}
 	
