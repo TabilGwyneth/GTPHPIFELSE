@@ -4,18 +4,17 @@
 
 <?php
 
-echo rand (1,6); 
 $t = rand(1,6); 
   
-   if ($t == 1){  
+   if ($t = "1"){  
      echo  "Almost snake eyes";    
               }  
-   elseif ($t > 6 ){   
-     echo "heyooo";  
+   elseif ($t = "6" ){   
+     echo "winner";  
     }
   
   else: 
-    echo "Winner";
+    echo "you lost";
  
   
   endif;
