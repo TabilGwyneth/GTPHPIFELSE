@@ -5,7 +5,7 @@
 <?php
 
 $t = rand(1,6);
-echo $t;
+echo ($t). , . $r. "\n";
 echo "<br>";
 
 	if ($t == 1){
