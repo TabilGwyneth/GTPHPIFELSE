@@ -10,9 +10,12 @@ $t = rand(1,6);
    if ($t == 1){  
      echo  "Almost snake eyes";    
               }  
-   elseif ($t == 6 ){   
-     echo "winner";  
+   elseif ($t > 6 ){   
+     echo "heyooo";  
     }
+  
+  else: 
+    echo "Winner";
  
   
   endif;
