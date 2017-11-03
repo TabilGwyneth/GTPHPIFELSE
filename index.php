@@ -6,7 +6,7 @@
 
 $t = rand(1,6);
 echo $t;
-echo "</br>";
+echo "<br>";
 
 	if ($t == 1){
 		echo  "Almost snake eyes";
