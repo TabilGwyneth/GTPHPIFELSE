@@ -27,6 +27,15 @@ echo "<br>";
 		
 	}
 	
+	elseif ($t == 6 xor $r>6){
+		echo "Nearly a winner";
+	}
+	
+	elseif ($t>6 xor $r == 6){
+	
+		echo "nearly a winner";
+	}
+	
 	else {
 		echo "you lose";
 	}
