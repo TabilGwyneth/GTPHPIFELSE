@@ -11,7 +11,7 @@ if ($t == "1"){  
 } elseif ($t == "6" ){   
   echo "winner";  
 } else {
-    echo "you lost";
+  echo "you lost";
  
 }
 
